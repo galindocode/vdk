@@ -119,7 +119,7 @@ func Dial(options RTSPClientOptions) (*RTSPClient, error) {
 		options:             options,
 		AudioTimeScale:      8000,
 	}
-	client.headers["User-Agent"] = "Lavf58.76.100"
+	client.headers["User-Agent"] = "NetsocsREC/1.0.0"
 	err := client.parseURL(html.UnescapeString(client.options.URL))
 	if err != nil {
 		return nil, err
