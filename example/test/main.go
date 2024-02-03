@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/deepch/vdk/format/ts"
 	"log"
 	"os"
+
+	"github.com/galindocode/vdk/format/ts"
 )
 
 func main() {
